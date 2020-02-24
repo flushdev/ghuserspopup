@@ -7,7 +7,7 @@ const request = (method, url, schema) => {
       url: url,
       data: schema,
       headers: {
-        Authorization: `Bearer a7d265093ff6a811b52b33b369a713bacdd6bc77`
+        Authorization: `Bearer b0da3dff5a6067975207f25c2e547a46cba7c78f`
       }
     })
       .then(({ data }) => resolve(data))
