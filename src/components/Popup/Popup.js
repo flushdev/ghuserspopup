@@ -7,7 +7,7 @@ const Popup = props => {
   const [displayPopup, setDisplayPopup] = useState(false);
   useEffect(() => {
     props.popup && setDisplayPopup(props.popup);
-    const timeout = setTimeout(() => !props.popup && setDisplayPopup(false), 222221);
+    const timeout = setTimeout(() => !props.popup && setDisplayPopup(false), 2000);
     return () => clearTimeout(timeout);
   }, [props]);
 
