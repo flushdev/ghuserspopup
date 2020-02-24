@@ -1,5 +1,7 @@
 import axios from "axios";
 
+const token = "";
+
 const request = (method, url, schema) => {
   return new Promise((resolve, reject) => {
     return axios({
@@ -7,7 +9,7 @@ const request = (method, url, schema) => {
       url: url,
       data: schema,
       headers: {
-        Authorization: `Bearer b0da3dff5a6067975207f25c2e547a46cba7c78f`
+        Authorization: `Bearer ${token}`
       }
     })
       .then(({ data }) => resolve(data))
