@@ -1,0 +1,6 @@
+.users_card__layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0 100px 0;
+}

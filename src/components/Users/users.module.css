@@ -1,0 +1,56 @@
+.card_list__title {
+  margin: 50px 0;
+}
+.user_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  height: 120px;
+  box-shadow: 2px 2px 8px -3px #282c34;
+  margin: 8px 0;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #00000030;
+}
+.user_card__main {
+  display: flex;
+  align-items: center;
+}
+.user_card__main img {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.img_popup__container {
+  position: relative;
+}
+.user_card__name {
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.user_card__login {
+  width: 140px;
+  margin-right: 10px;
+}
+.user_card__login p {
+  text-align: right;
+  font-weight: 500;
+}
+.user_text__placehold {
+  color: cadetblue;
+}
+.user_text__info {
+  color: black;
+}
+.errors__title {
+  margin: 10px 0;
+}
+.user_card__error {
+  font-size: 1rem;
+  color: #ff5b6b;
+  font-weight: bold;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,62 @@
+.popup__wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 480px;
+  height: 340px;
+  left: 110px;
+  padding-left: 10px;
+  top: -9px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 8px -10px #282c34;
+  border-radius: 0 10px 10px 0;
+  border-top: 1px solid #00000030;
+}
+.popup__wrapper__active {
+  z-index: 100;
+}
+.popup__row {
+  display: flex;
+  flex-direction: row;
+  width: 480px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.popup__wrapper p {
+  color: cadetblue;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.additional_user {
+  margin: 5px 0;
+}
+.popup__wrapper p span {
+  color: black;
+}
+.popup_firstname {
+  text-align: left;
+  margin: 14px;
+  margin-bottom: -1px;
+}
+.popup_lastname {
+  text-align: left;
+  margin-bottom: 6px;
+}
+.user_card__name {
+  margin-top: 18px;
+}
+
+.popup_card__login {
+  text-align: right;
+  width: 140px;
+  margin-right: 10px;
+}
+.popup_text__placehold {
+  color: cadetblue;
+}
+.popup_text__info {
+  color: black !important;
+  margin-top: -1px;
+}
