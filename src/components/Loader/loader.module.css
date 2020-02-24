@@ -1,4 +1,8 @@
 .preloader__users {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: cadetblue;
   transition: 0.5s ease;
   opacity: 0.7;
