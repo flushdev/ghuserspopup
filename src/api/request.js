@@ -7,7 +7,7 @@ const request = (method, url, schema) => {
       url: url,
       data: schema,
       headers: {
-        Authorization: `Bearer ${process.env.REACT_APP_GITHUB_TOKEN}`
+        Authorization: `Bearer a7d265093ff6a811b52b33b369a713bacdd6bc77`
       }
     })
       .then(({ data }) => resolve(data))
