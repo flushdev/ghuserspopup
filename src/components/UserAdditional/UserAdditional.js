@@ -17,7 +17,7 @@ const UserAdditional = props => {
   };
   return Object.keys(fields).map(field => (
     <p key={field + additional.id} className={props.style.additional_user}>
-      {fields[field]}{" "}
+      {fields[field]}
       {additional[field] ? (
         <span>{additional[field]?.totalCount ?? additional[field]}</span>
       ) : (

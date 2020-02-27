@@ -15,12 +15,12 @@ const Popup = props => {
   return (
     displayPopup && (
       <div
-        className={`${styles.popup__wrapper} ${props.popup && `${styles.popup__wrapper__active}`}`}
+        className={`${styles.popup__wrapper} ${props.popup ? styles.popup__wrapper__active : null}`}
       >
-        <div className={styles.popup__row}>
-          <UserFirstLastName name={props.name} style={styles} />
-          <UserGitHubName login={props.login} style={styles} />
-        </div>
+        {/*<div className={styles.popup__row}>*/}
+        {/*  <UserFirstLastName name={props.name} style={styles} />*/}
+        {/*  <UserGitHubName login={props.login} style={styles} />*/}
+        {/*</div>*/}
         <UserAdditional {...props} style={styles} />
       </div>
     )

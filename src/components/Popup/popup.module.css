@@ -4,15 +4,19 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 480px;
-  left: 110px;
+  width: 465px;
+  left: 130px;
+  padding-top: 15px;
   padding-bottom: 20px;
-  padding-left: 10px;
-  top: -9px;
-  background-color: #ffffff;
-  box-shadow: 10px 10px 8px -10px #282c34;
-  border-radius: 0 10px 10px 0;
-  border-top: 1px solid #00000030;
+  padding-left: 4px;
+  top: 90px;
+  background-color: #d6d6d6;
+  box-shadow: -3px -3px 5px #b6b6b6, 3px 3px 5px #f6f6f6;
+
+  /*box-shadow: 10px 10px 8px -10px #282c34;*/
+  border-radius: 15px;
+  /*border: 1px solid #00000030;*/
+  z-index: 50;
 }
 .popup__wrapper__active {
   z-index: 100;
@@ -27,7 +31,7 @@
 .popup__wrapper p {
   color: cadetblue;
   font-weight: 500;
-  margin-left: 10px;
+  margin-left: 9px;
 }
 .additional_user {
   margin: 5px 0;
@@ -50,8 +54,8 @@
 
 .popup_card__login {
   text-align: right;
-  width: 140px;
-  margin-right: 10px;
+  min-width: 140px;
+  margin-right: 20px;
 }
 .popup_text__placehold {
   color: cadetblue;
